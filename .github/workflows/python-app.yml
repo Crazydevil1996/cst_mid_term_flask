@@ -28,7 +28,7 @@ jobs:
       run: |
         python -m unittest
         
-    - uses: akhileshns/heroku-deploy@3.12.12
+    - uses: akhileshns/heroku-deploy@v3.12.12
       with:
         heroku_email: "pammisingh98567@gmail.com"
         heroku_api_key: "8db743b0-ebec-4190-bab5-58966b0d144d"
